@@ -192,8 +192,8 @@ importers:
         specifier: ^4.2.0
         version: 4.2.0
       nodemailer:
-        specifier: ^9.0.1
-        version: 9.1.1
+        specifier: ^10.1.4
+        version: 10.1.4
       normalize-url:
         specifier: ^9.0.0
         version: 9.0.1
@@ -2261,9 +2261,6 @@ packages:
   '@types/mustache@4.2.6':
     resolution: {integrity: sha512-t+8/QWTAhOFlrF1IVZqKnMRJi84EgkIK5Kh0p2JV4OLywUvCwJPFxbJAl7XAow7DVIHsF+xW9f1MVzg0L6Szjw==}
 
-  '@types/node@22.20.2':
-    resolution: {integrity: sha512-xlvWf4Vs9n1PEVYwP1n4vvG07M6y8WgvJ2t0vbrWTmijsIHp1cS+uJ2kMIRdY3nHZK0nCYKrPeD171+SzF4/zw==}
-
   '@types/node@22.20.3':
     resolution: {integrity: sha512-DZmzkmwHzXrLPAXPyKNDzlIwMMUZCVacoD25ywdy5YTKGbOx/2ld+Q38Im2zJ0vBuZP5Prd3VZutKZyXwkOS8A==}
 
@@ -3196,6 +3193,7 @@ packages:
   db-migrate@0.11.14:
     resolution: {integrity: sha512-8e+/YsIlM3d69hj+cb6qG6WyubR8nwXfDf9gGLWl4AxHpI6mTomcqhRLNfPrs7Le7AZv2eEsgK8hkXDSQqfIvg==}
     engines: {node: '>=8.0.0'}
+    deprecated: 0.x is end of life, please upgrade to db-migrate 1.0
     hasBin: true
 
   debounce@2.2.0:
@@ -4803,9 +4801,9 @@ packages:
     resolution: {integrity: sha512-YHs7BmmcsdAI5Ozuf8JZo6PT0mv2GIWC9vMfvUC3dp65M8hn7Ux8CPL+2oBI7juNuj9d0ndhTcznq2ODBps9cQ==}
     engines: {node: '>=18'}
 
-  nodemailer@9.1.1:
-    resolution: {integrity: sha512-izw9mVKFix6YSnC9eLgV6g1opl9DUlRio9ZNcq+Wu9Ujn2UwF+8Nl0B8nz22kEC+CTZCvinkxwJ0DeFbb6NwcQ==}
-    engines: {node: '>=6.0.0'}
+  nodemailer@10.1.4:
+    resolution: {integrity: sha512-EsMnOR2oRv4LGnWvHgcVYkkQ4O2j8KO4WTw6l+PHR4sOXo8SAgIraxtEnGDmotjbhv0hDsu3IuDIFZm8iXwO4A==}
+    engines: {node: '>=20.0.0'}
 
   normalize-url@9.0.1:
     resolution: {integrity: sha512-ARftfC5HdUNu9jJeL8pHj8debUIHA2b91FizCoMzY4lG6dDX13jdvTK0TBe24IBDRf2HvJSzzwEPvmbkQWHRSg==}
@@ -7911,10 +7909,6 @@ snapshots:
 
   '@types/mustache@4.2.6': {}
 
-  '@types/node@22.20.2':
-    dependencies:
-      undici-types: 6.21.0
-
   '@types/node@22.20.3':
     dependencies:
       undici-types: 6.21.0
@@ -7980,7 +7974,7 @@ snapshots:
 
   '@types/set-cookie-parser@2.4.10':
     dependencies:
-      '@types/node': 22.20.2
+      '@types/node': 22.20.3
 
   '@types/sinonjs__fake-timers@8.1.1': {}
 
@@ -10680,7 +10674,7 @@ snapshots:
 
   node-releases@2.0.54: {}
 
-  nodemailer@9.1.1: {}
+  nodemailer@10.1.4: {}
 
   normalize-url@9.0.1: {}
 
